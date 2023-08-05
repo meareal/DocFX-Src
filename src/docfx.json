@@ -1,0 +1,47 @@
+{  
+  "build": {
+    "content": [
+      {
+        "files": [
+          "DocFX/**.md",
+          "DocFX/**/toc.yml",
+          "toc.yml",
+          "*.md"                    
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "DocFX/images/**"
+        ]
+      }
+    ],
+    "dest": "../docs",
+    "globalMetadata": {
+      "_appLogoPath": "images/logo.png",
+      "_appTitle": "DocFX Sample Site",
+      "_appFooter": "Copyright (c) - meareal",
+      "_enableSearch": true,
+      "_enableNewTab": true,
+      "_disableContribution": false,
+      "_gitContribute": {
+        "repo": "https://github.com/meareal/DocFX-Src.git",  
+        "branch": "main",
+        "path": "src"
+      },
+      "_gitUrlPattern": "github"
+    },    
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",
+      "templates/material"
+    ],
+    "postProcessors": [],
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "disableGitFeatures": false
+  }
+}
