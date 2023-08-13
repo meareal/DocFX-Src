@@ -18,11 +18,11 @@
         ]
       }
     ],
-    "dest": "../docs",
+    "dest": "../../DocFX-Docs/docs",
     "globalMetadata": {
       "_appLogoPath": "images/logo.png",
       "_appTitle": "DocFX Sample Site",
-      "_appFooter": "Copyright (c) - meareal",
+      "_appFooter": "Copyright (c) - https://github.com/meareal/",
       "_enableSearch": true,
       "_enableNewTab": true,
       "_disableContribution": false,
