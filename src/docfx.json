@@ -18,7 +18,7 @@
         ]
       }
     ],
-    "dest": "../../DocFX-Docs/docs",
+    "dest": "../docs",
     "globalMetadata": {
       "_appLogoPath": "images/logo.png",
       "_appTitle": "DocFX Sample Site",
